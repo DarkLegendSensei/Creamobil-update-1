@@ -1,0 +1,182 @@
+
+*{
+  z-index: 0  ;
+  text-align: center;
+}
+
+body{
+  margin:0%;
+}
+
+header{
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  border-bottom: 0.4vh solid #a45;
+  position: fixed;
+  z-index: 10;
+}
+
+navbar a{
+   float: right; 
+  text-align: right;
+  /* margin: 1.85vh; */
+  color:black;
+  font-size:25px;
+  text-decoration:none;
+  transition: all .25s ease-in-out;
+  padding: 1.91vh;
+  padding-right: 4.91vh;
+  padding-left: 4.91vh;
+  /* display: inline-block; */
+  
+}
+.tel{
+  float: left;
+}
+
+
+navbar a:hover{
+  color: rgb(255, 0, 0);
+  background-color: rgb(223, 202, 202);
+}
+navbar img{
+  float: left;
+  height: 5vh;
+  margin: 1vh;
+  width:auto;
+}
+main{
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90.1% ), url(../images/123.jpg);
+  padding-top: 7vh;
+  height: 100%;
+  padding-bottom: 5vh;
+
+}
+
+background{
+  background-image: url(../images/123.jpg);
+  opacity: 0.7;
+}
+
+footer{
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  height: 11vh;
+  text-align: center;
+  border-top: 0.4vh solid #a45;
+  
+  z-index: 10;
+}
+
+.imag{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0vh;
+  height: 75vh;
+  width: 95vh;
+  border: solid 1vh rgb(189, 188, 188);
+  border-radius: 2vh;
+  
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  padding: 1vh;
+  font-size: 2vh;
+}
+
+
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin: 2vh;
+  border: solid 1vh rgb(189, 188, 188);
+  border-radius: 2vh;
+  transition: all .25s ease-in-out;
+  
+}
+
+
+.row:hover{
+  transform: scale(93%);
+}
+
+img{
+  border-radius: 1vh;
+  width: 300px;
+  height: 230px;
+
+}
+
+.slide_show{
+
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.fotr{
+  font-size: 2vh;
+  margin: 2vh;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.fotr:hover{
+  color: rgb(255, 0, 0);
+}
+
+.div{
+  margin: 15vh;
+  border: solid 1vh rgb(189, 188, 188);
+  border-radius: 2vh;   
+}
+
+.clear{
+  clear: both;
+}
+
+.info{
+  font-size: 3vh;
+  margin: 4vh;
+
+}
+.text-back{
+  background-image: url('../images/Pat-Milano-2.jpg');
+  background-size: cover;
+  height: 50vh;
+  color: #fff;
+  font-size: 6vh;
+}
+
+
+
+@media (max-width:800px){
+  navbar a{
+    font-size:15px;
+    padding: 2.5vh;
+
+  }
+}
+
+@media (max-width:460px){
+  navbar a{
+    font-size:9px;
+    padding: 2.9vh;
+
+  }
+}
